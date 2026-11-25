@@ -2,13 +2,13 @@
 
 ```
 $ whoami
-dhileep-kumar — lead-devops-engineer
+→ dhileep-kumar — lead-devops-engineer
 
 $ kubectl get clusters --context=portfolio
-platform-prod     Ready
-platform-staging  Ready
+→ platform-prod Ready 3/3 nodes
+→ platform-staging Ready 2/2 nodes
 
-$ terraform plan -var-file=production.tfvars
+$ terraform plan -var-file=prod.tfvars
 → Plan: 3 to add, 0 to change, 0 destroy.
 
 $ tail -f /var/log/incidents.log
