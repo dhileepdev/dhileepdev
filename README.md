@@ -82,9 +82,9 @@ Senior Lead DevOps Engineer with 9 years of experience in SRE, platform engineer
 **📫 Let's Connect**
 
 - **GitHub**: [@dhileepdev](https://github.com/dhileepdev)
-- **Email**: dhileep@example.com
+- **Email**: hello@dhileep.info
 - **Location**: [Coimbatore, India]
-- **Blog**: [blog.dhileep.info] (coming soon)
+- **Blog**: [blog.dhileep.info] (https://blog.dhileep.info)
 
 <p align="center">
   ⚡️ Fun fact: I run Kubernetes clusters on homelab hardware on weekends. Yes, I live the dream 24/7.
