@@ -1,160 +1,20 @@
-# dhileep kumar — Lead DevOps Engineer
+<h1 align="center">Hi 👋, I'm Dhileep Kumar</h1>
+<h3 align="center">A passionate Lead DevOps/SRE Engineer from India</h3>
 
-**9 years · SRE · Platform Engineering · Disaster Recovery & Compliance**
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=dhileepdev&label=Profile%20views&color=0e75b6&style=flat" alt="dhileepdev" /> </p>
 
-> Building resilient platforms, automating compliance, and keeping the pager quiet.
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=dhileepdev" alt="dhileepdev" /></a> </p>
 
----
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/https://www.linkedin.com/in/dhileep-kumar-99955874/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/dhileep-kumar-99955874/" height="30" width="40" /></a>
+</p>
 
-## 📊 At a Glance
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.elastic.co" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" alt="elasticsearch" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://golang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/> </a> <a href="https://grafana.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="grafana" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.jenkins.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/> </a> <a href="https://www.elastic.co/kibana" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elasticco_kibana/elasticco_kibana-icon.svg" alt="kibana" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> </p>
 
-```bash
-$ whoami
-→ dhileep-kumar — Lead DevOps Engineer
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=dhileepdev&show_icons=true&locale=en&layout=compact" alt="dhileepdev" /></p>
 
-$ kubectl get clusters --context=portfolio
-→ platform-prod     Ready 3/3 nodes
-→ platform-staging  Ready 2/2 nodes
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=dhileepdev&show_icons=true&locale=en" alt="dhileepdev" /></p>
 
-$ terraform plan -var-file=prod.tfvars
-→ Plan: 3 to add, 0 to change, 0 destroy.
-
-$ tail -f /var/log/incidents.log
-→ WARN sev=1 service=checkout error=timeout retries=3
-```
-
----
-
-## 💻 Terminal Showcase
-
-A snapshot of the tools I work with daily:
-
-```bash
-$ whoami
-→ dhileep-kumar — Lead DevOps Engineer
-
-$ kubectl get clusters --context=portfolio
-→ platform-prod     Ready 3/3 nodes
-→ platform-staging  Ready 2/2 nodes
-
-$ terraform plan -var-file=prod.tfvars
-→ Plan: 3 to add, 0 to change, 0 destroy.
-
-$ tail -f /var/log/incidents.log
-→ WARN sev=1 service=checkout error=timeout retries=3
-```
-```bash
-$ kubectl get nodes -o wide
-→ ready   master   4   v1.29.0   k8s-node-1   <none>   <none>   Ready
-→ ready   master   4   v1.29.0   k8s-node-2   <none>   <none>   Ready
-→ ready   master   4   v1.29.0   k8s-node-3   <none>   <none>   Ready
-
-$ kubectl get pods -A --field-selector=status.phase=Running
-→ kube-system   coredns-5d95...   1/1   Running   0   23d
-→ kube-system   kube-dns-...      1/1   Running   0   23d
-→ monitoring    prometheus-server-...   2/2   Running   0   23d
-```
-```bash
-$ docker ps
-→ CONTAINER ID   IMAGE          COMMAND       CREATED       STATUS        PORTS     NAMES
-→ abc1234        nginx:latest   "nginx -g 'daemon"   2 hours ago   Up 2 hours   80/tcp   web-server
-→ def5678        redis:7-alpine "docker-entrypoint.sh"   23 minutes ago   Up 23 minutes   6379/tcp   redis-cache
-```
-```bash
-$ helm list -A
-→ NAME            NAMESPACE   REVISION   UPDATED      STATUS      CHART               APP VERSION
-→ prometheus      monitoring  1          2 days ago   deployed    prometheus-2.45.0   2.45.0
-→ argocd          kube-system 2          2 days ago   deployed    argocd-5.53.0       5.53.0
-```
-```bash
-$ gh run list --limit 5
-→ #1234   dhileepdev/dr-incident-dashboard   Finished   2026-01-15   42s
-→ #1235   dhileepdev/compliance-security-scanner   Queued     2026-01-15   —
-→ #1236   dhileepdev/terraform-landing-zone   Running    2026-01-15   15m
-```
-```bash
-$ aws sts get-caller-identity
-→ Account: 123456789012
-→ UserId: AIDA1234567890123456789
-→ Arn: arn:aws:iam::123456789012:user/dhileep-kumar
-```
-```bash
-$ terraform init
-→ Initializing the backend...
-→ Initializing provider plugins...
-→ Terraform has been successfully initialized!
-```
-```bash
-$ kubectl logs -n monitoring $(kubectl get pods -n monitoring -l app=prometheus -o jsonpath='{.items[0].metadata.name}') --tail=5
-→ 2026-01-15T10:30:00Z INFO Successfully connected to TSDB
-→ 2026-01-15T10:29:00Z INFO Received 15000 series
-→ 2026-01-15T10:28:00Z WARN Scraping target removed: job=kubernetes-nodes
-```
-```bash
-$ git log --oneline -5
-→ 9f8a3b2 feat: add DR dashboard dashboard widget
-→ a3b2c1d fix: kyverno policy for image scanning
-→ e5d4c3b chore: update terraform module versions
-→ 7c6b5a2 docs: update README with new commands
-→ 2a1b0c9 refactor: simplify CI pipeline
-```
-```bash
-$ argocd app list -o wide
-→ dr-incident-dashboard   ns1   healthy   Synced   2026-01-15T10:30:00Z
-→ compliance-scanner    ns2   healthy   Synced   2026-01-15T10:25:00Z
-→ landing-zone          ns3   healthy   Synced   2026-01-15T10:20:00Z
-```
-```bash
-$ kubectl get pods -n prod -o jsonpath='{.items[0].status.containerStatuses[0].ready}'
-→ true
-```
-
----
-
-## 🛠️ Core Expertise
-
-- **SRE & Reliability**: SLI/SLO definition, error budget management, incident command
-- **CI/CD & Automation**: GitOps, pipeline orchestration, infrastructure as code
-- **Platform Engineering**: Kubernetes, Terraform, cost optimization, multi-cluster management
-- **Compliance & Security**: Kyverno policies, Trivy scanning, SOC2/DORA readiness
-- **Disaster Recovery**: DR drills, backup strategies, RTO/RPO planning
-
----
-
-## 📌 Pinned Projects
-
-| Project | Description |
-|---------|-------------|
-| [dr-incident-dashboard-portfolio](https://github.com/dhileepdev/dr-incident-dashboard-portfolio) | DR + incident command dashboard |
-| [compliance-security-scanner-portfolio](https://github.com/dhileepdev/compliance-security-scanner-portfolio) | Kyverno + Trivy + CI compliance |
-| [terraform-landing-zone-portfolio](https://github.com/dhileepdev/terraform-landing-zone-portfolio) | Terraform landing zone + cost management |
-
----
-
-## 🚧 In Progress
-
-| Project | Description |
-|---------|-------------|
-| [devops-plugin-ecosystem](https://github.com/dhileepdev/devops-plugin-ecosystem) | Plugin discovery & health platform |
-| [evidence-kit](https://github.com/dhileepdev/evidence-kit) | Audit evidence packs, signed + checksummed |
-
----
-
-## 📫 Let's Connect
-
-- **GitHub**: [@dhileepdev](https://github.com/dhileepdev)
-- **Email**: dhileep@example.com
-- **Location**: [Your City, Country]
-- **Blog**: [your-blog.com] (coming soon)
-
----
-
-## 💡 Philosophy
-
-> "Automate everything that can be automated, and document the rest. A good SRE makes themselves obsolete by building systems that run themselves."
-
----
-
-*⚡️ Fun fact: I run Kubernetes clusters on homelab hardware on weekends. Yes, I live the dream 24/7.*
-
-*🛠️ Tech stack: Kubernetes • Terraform • GitHub Actions • ArgoCD • Prometheus • Grafana • Kyverno • Trivy • Python • Go*
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=dhileepdev&" alt="dhileepdev" /></p>
