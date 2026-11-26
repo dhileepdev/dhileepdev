@@ -19,12 +19,12 @@ Policy checks and evidence in the workflow.
 Secure by default, observable by design.
 
 $ ls ~/projects
-[Aetheria](https://github.com/dhileepdev/Aetheria) · multi-cloud platform foundations
-[compliance-security-scanner-portfolio](https://github.com/dhileepdev/compliance-security-scanner-portfolio) · policy-driven governance
-[dr-incident-dashboard](https://github.com/dhileepdev/dr-incident-dashboard) · incident response SRE tooling
-[devops-plugin-ecosystem](https://github.com/dhileepdev/devops-plugin-ecosystem) · plugin discovery & health
+[Aetheria](https://github.com/dhileepdev/Aetheria)
+[compliance-scanner](https://github.com/dhileepdev/compliance-security-scanner-portfolio)
+[dr-dashboard](https://github.com/dhileepdev/dr-incident-dashboard)
+[devops-ecosystem](https://github.com/dhileepdev/devops-plugin-ecosystem)
 
 $ ./contact.sh
-LinkedIn: [@dhileep-kumar-99955874](https://www.linkedin.com/in/dhileep-kumar-99955874/)
-Email: [dhileep1992@gmail.com](mailto:dhileep1992@gmail.com)
-Website: [dhileep.info](https://dhileep.info)
+LinkedIn: @dhileep-kumar-99955874
+Email: dhileep1992@gmail.com
+Website: dhileep.info
