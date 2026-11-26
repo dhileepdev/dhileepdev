@@ -14,101 +14,175 @@
                 ________________________________________________________
                 < BUILDING PLATFORMS THAT SHIP WITH CONFIDENCE.          >
                  KEEPING THE PAGER QUIET.                            >
-                 ------------------------------------                  >\n
-                  \    ^     ^      /                          |  >\n
-                   \  /     /     /    TERMINAL THEME: TERRA          |>\n
-                    \/     /     /     GREEN ON BLACK AESTHETIC     |>\n
-                     \     /     /                                  |\n
-                      \   /     /                                   |\n
-                       \ /     /    At a Glance:                     |\n
-                        X   X   /                                    |\n
-                       /| | | |/  .---------------------------. |\n
-                      (_| |_|_)  |  $ whoami                       | |\n
-                      / | | | |   → dhileep-kumar — Lead DevOps Engineer| |\n
-                      | | | | |   .-------------------------------. | |\n
-                      | | | | |  $ kubectl get clusters --context=portfolio | |\n
-                      | | | | |   → platform-prod     Ready            | |\n
-                      | | | | |   → platform-staging  Ready            | |\n
-                      | | | | |   .-------------------------------. | |\n
-                      | | | | |  $ terraform plan -var-file=prod.tfvars   | |\n
-                      | | | | |   → Plan: reviewed changes before apply.| |\n
-                      | | | | |   .-------------------------------. | |\n
-                      | | | | |  $ pipeline status --summary          | |\n
-                      | | | | |   → verified quality gates · security scans   | |\n
-                      | | | | |   → awaiting input                    | |\n
-                      | | | | |   '-------------------------------' | |\n
-                      | | | | |                                       | |\n
-                      | | | | |  .-------------------------------. | |\n
-                      | | | | |  $ docker ps                           | |\n
-                      | | | | |  → CONTAINER ID   IMAGE          COMMAND       CREATED       STATUS        PORTS     NAMES | |\n
-                      | | | | |  → abc1234        nginx:latest   "nginx -g 'daemon"   2 hours ago   Up 2 hours   80/tcp   web-server | |\n
-                      | | | | |  → def5678        redis:7-alpine "docker-entrypoint.sh"   23 minutes ago   Up 23 minutes   6379/tcp   redis-cache | |\n
-                      | | | | |   '-------------------------------' | |\n
-                      | | | | |                                       | |\n
-                      | | | | |  .-------------------------------. | |\n
-                      | | | | |  $ helm list -A                        | |\n
-                      | | | | |  → NAME            NAMESPACE   REVISION   UPDATED      STATUS      CHART               APP VERSION | |\n
-                      | | | | |  → prometheus      monitoring  1          2 days ago   deployed    prometheus-2.45.0   2.45.0 | |\n
-                      | | | | |  → argocd          kube-system 2          2 days ago   deployed    argocd-5.53.0       5.53.0 | |\n
-                      | | | | |   '-------------------------------' | |\n
-                      | | | | |                                       | |\n
-                      | | | | |  .-------------------------------. | |\n
-                      | | | | |  $ aws sts get-caller-identity          | |\n
-                      | | | | |  → Account: 123456789012                | |\n
-                      | | | | |  → UserId: AIDA1234567890123456789      | |\n
-                      | | | | |  → Arn: arn:aws:iam::123456789012:user/dhileep-kumar | |\n
-                      | | | | |   '-------------------------------' | |\n
-                      | | | | |                                       | |\n
-                      | | | | |  .-------------------------------. | |\n
-                      | | | | |  $ git log --oneline -5                  | |\n
-                      | | | | |  → 9f8a3b2 feat: add DR dashboard dashboard widget | |\n
-                      | | | | |  → a3b2c1d fix: kyverno policy for image scanning | |\n
-                      | | | | |  → e5d4c3b chore: update terraform module versions | |\n
-                      | | | | |   '-------------------------------' | |\n
-                      | | | | |                                       | |\n
-                      | | | | |  .-------------------------------. | |\n
-                      | | | | |  $ argocd app list -o wide                | |\n
-                      | | | | |  → dr-incident-dashboard   ns1   healthy   Synced   2026-01-15T10:30:00Z | |\n
-                      | | | | |  → compliance-scanner    ns2   healthy   Synced   2026-01-15T10:25:00Z | |\n
-                      | | | | |  → landing-zone          ns3   healthy   Synced   2026-01-15T10:20:00Z | |\n
-                      | | | | |   '-------------------------------' | |\n
-                      | | | | |                                       | |\n
-                      | | | | |   Core Expertise:                         | |\n
-                      | | | | |  .-------------------------------.        | |\n
-                      | | | | |  | Cloud & Platform: AWS, Google Cloud, GKE, Cloud Run, Cloud SQL, VPC | |\n
-                      | | | | |  | Delivery & Automation: Terraform, Jenkins, Cloud Build, CI/CD, Python, Bash | |\n
-                      | | | | |  | Reliability & Observability: Kubernetes, Docker, Prometheus, Grafana, EFK, Incident response | |\n
-                      | | | | |  | Security & Governance: IAM, OPA, Policy as Code, SOC 2 readiness, HIPAA readiness, HITRUST readiness | |\n
-                      | | | | |  '-------------------------------'        | |\n
-                      | | | | |                                        | |\n
-                      | |   Pinned Projects:                        | |\n
-                      | |  .-------------------------------.      | |\n
-                      | |  | Multi-cloud platform foundations       | Reusable infrastructure patterns for secure cloud environments, with Terraform-managed resources and clear operational guardrails | |\n
-                      | |  | CI/CD delivery at scale                 | Pipeline standards, release automation, and practical feedback loops that help teams ship frequently without skipping quality gates | |\n
-                      | |  | Policy-driven cloud governance          | Infrastructure policy checks and automated evidence workflows designed to make security controls repeatable and auditable | |\n
-                      | |   '-------------------------------'      | |\n
-                      | |                                        | |\n
-                      | |   In Progress:                          | |\n
-                      | |  .-------------------------------.    | |\n
-                      | |  | devops-plugin-ecosystem | Plugin discovery & health platform | |\n
-                      | |  | evidence-kit | Audit evidence packs, signed + checksummed | |\n
-                      | |   '-------------------------------'    | |\n
-                      | |                                        | |\n
-                      | |   Let's Connect:                        | |\n
-                      | |  .-------------------------------.  | |\n
-                      | |  | GitHub: [@dhileepdev](https://github.com/dhileepdev) | |\n
-                      | |  | Email: dhileep1992@gmail.com       | |\n
-                      | |  | Location: [Coimbatore, Tamil Nadu]   | |\n
-                      | |  | Blog: [https://dhileep.info] (coming soon) | |\n
-                      | |   '-------------------------------'  | |\n
-                      | |                                        | |\n
-                      | |   Fun fact: I run Kubernetes clusters on homelab hardware on weekends. Yes, I live the dream 24/7. | |\n
-                      | |                                        | |\n
-                      | |   Tech stack: Kubernetes • Terraform • GitHub Actions • ArgoCD • Prometheus • Grafana • Kyverno • Trivy • Python • Go | |\n
-                      | |                                        | |\n
-                      |   © 2026 dhileepdev. All rights reserved.   | |\n
-                      |                                        | |\n
-                      |    TERMINAL SESSION ENDED                         |>\n
+                 ------------------------------------                  >\\n
+                  \\    ^     ^      /                          |  >\\n
+                   \\  /     /     /    TERMINAL THEME: TERRA          |>\\n
+                    \\/     /     /     GREEN ON BLACK AESTHETIC     |>\\n
+                     \\     /     /                                  |\\n
+                      \\   /     /                                   |\\n
+                       \\ /     /    At a Glance:                     |\\n
+                        X   X   /                                    |\\n
+                       /| | | |/  .---------------------------. |\\n
+                      (_| |_|_)  |  $ whoami                       | |\\n
+                      / | | | |   → dhileep-kumar — Lead DevOps Engineer| |\\n
+                      | | | | |   .-------------------------------. | |\\n
+                      | | | | |  $ kubectl get clusters --context=portfolio | |\\n
+                      | | | | |   → platform-prod     Ready            | |\\n
+                      | | | | |   → platform-staging  Ready            | |\\n
+                      | | | | |   .-------------------------------. | |\\n
+                      | | | | |  $ terraform plan -var-file=prod.tfvars   | |\\n
+                      | | | | |   → Plan: reviewed changes before apply.| |\\n
+                      | | | | |   .-------------------------------. | |\\n
+                      | | | | |  $ pipeline status --summary          | |\\n
+                      | | | | |   → verified quality gates · security scans   | |\\n
+                      | | | | |   → awaiting input                    | |\\n
+                      | | | | |   '-------------------------------' | |\\n
+                      | | | | |                                       | |\\n
+                      | | | | |  .-------------------------------. | |\\n
+                      | | | | |  $ docker ps                           | |\\n
+                      | | | | |  → CONTAINER ID   IMAGE          COMMAND       CREATED       STATUS        PORTS     NAMES | |\\n
+                      | | | | |  → abc1234        nginx:latest   \"nginx -g 'daemon\"   2 hours ago   Up 2 hours   80/tcp   web-server | |\\n
+                      | | | | |  → def5678        redis:7-alpine \"docker-entrypoint.sh\"   23 minutes ago   Up 23 minutes   6379/tcp   redis-cache | |\\n
+                      | | | | |   '-------------------------------' | |\\n
+                      | | | | |                                       | |\\n
+                      | | | | |  .-------------------------------. | |\\n
+                      | | | | |  $ helm list -A                        | |\\n
+                      | | | | |  → NAME            NAMESPACE   REVISION   UPDATED      STATUS      CHART               APP VERSION | |\\n
+                      | | | | |  → prometheus      monitoring  1          2 days ago   deployed    prometheus-2.45.0   2.45.0 | |\\n
+                      | | | | |  → argocd          kube-system 2          2 days ago   deployed    argocd-5.53.0       5.53.0 | |\\n
+                      | | | | |   '-------------------------------' | |\\n
+                      | | | | |                                       | |\\n
+                      | | | | |  .-------------------------------. | |\\n
+                      | | | | |  $ aws sts get-caller-identity          | |\\n
+                      | | | | |  → Account: 123456789012                | |\\n
+                      | | | | |  → UserId: AIDA1234567890123456789      | |\\n
+                      | | | | |  → Arn: arn:aws:iam::123456789012:user/dhileep-kumar | |\\n
+                      | | | | |   '-------------------------------' | |\\n
+                      | | | | |                                       | |\\n
+                      | | | | |  .-------------------------------. | |\\n
+                      | | | | |  $ git log --oneline -5                  | |\\n
+                      | | | | |  → 9f8a3b2 feat: add DR dashboard dashboard widget | |\\n
+                      | | | | |  → a3b2c1d fix: kyverno policy for image scanning | |\\n
+                      | | | | |  → e5d4c3b chore: update terraform module versions | |\\n
+                      | | | | |   '-------------------------------' | |\\n
+                      | | | | |                                       | |\\n
+                      | | | | |  .-------------------------------. | |\\n
+                      | | | | |  $ argocd app list -o wide                | |\\n
+                      | | | | |  → dr-incident-dashboard   ns1   healthy   Synced   2026-01-15T10:30:00Z | |\\n
+                      | | | | |  → compliance-scanner    ns2   healthy   Synced   2026-01-15T10:25:00Z | |\\n
+                      | | | | |  → landing-zone          ns3   healthy   Synced   2026-01-15T10:20:00Z | |\\n
+                      | | | | |   '-------------------------------' | |\\n
+                      | | | | |                                       | |\\n
+                      | |   CLOUD · PLATFORM · RELIABILITY              | |\\n
+                      | |                                        | |\\n
+                      | |   I'm Dhileep Kumar, a Lead DevOps Engineer focused   | |\\n
+                      | |   on cloud infrastructure, reliable delivery, and   | |\\n
+                      | |   security built into the workflow.               | |\\n
+                      | |                                        | |\\n
+                      | |   [Explore my work](#)  [Start a conversation](#)   | |\\n
+                      | |                                        | |\\n
+                      | |   LEAD DEVOPS                                  | |\\n
+                      | |   9+ years                                     | |\\n
+                      | |   60 Clusters supported                        | |\\n
+                      | |   1000+ CI/CD pipelines                      | |\\n
+                      | |   40% Cloud spend reduction                  | |\\n
+                      | |                                        | |\\n
+                      | |   Engineering for the real world.              | |\\n
+                      | |   A practical mix of platform thinking, automation,   | |\\n
+                      | |   security, and operational ownership.           | |\\n
+                      | |   My work sits where infrastructure, delivery, and   | |\\n
+                      | |   security meet. I build repeatable cloud foundations,  | |\\n
+                      | |   automate the path from commit to production, and   | |\\n
+                      | |   help teams operate services with clearer signals   | |\\n
+                      | |   and fewer manual steps.                        | |\\n
+                      | |                                        | |\\n
+                      | |   Secure by default. Observable by design.       | |\\n
+                      | |   Automate the repeatable.                     | |\\n
+                      | |                                        | |\\n
+                      | |   ### Platform thinking                        | |\\n
+                      | |   Reusable patterns over one-off fixes.          | |\\n
+                      | |                                        | |\\n
+                      | |   ### Operational clarity                    | |\\n
+                      | |   Useful alerts, clear ownership, better RCAs.   | |\\n
+                      | |                                        | |\\n
+                      | |   ### Security built in                      | |\\n
+                      | |   Policy checks and evidence in the workflow.    | |\\n
+                      | |                                        | |\\n
+                      | |   Tools are useful. Outcomes matter.           | |\\n
+                      | |                                        | |\\n
+                      | |   ### Cloud & platform                       | |\\n
+                      | |   AWS  Google Cloud  GKE  Cloud Run  Cloud SQL  VPC | |\\n
+                      | |                                        | |\\n
+                      | |   ### Delivery & automation                  | |\\n
+                      | |   Terraform  Jenkins  Cloud Build  CI/CD  Python  Bash | |\\n
+                      | |                                        | |\\n
+                      | |   ### Reliability & observability            | |\\n
+                      | |   Kubernetes  Docker  Prometheus  Grafana  EFK  Incident response | |\\n
+                      | |                                        | |\\n
+                      | |   ### Security & governance                  | |\\n
+                      | |   IAM  OPA  Policy as Code  SOC 2 readiness  HIPAA readiness  HITRUST readiness | |\\n
+                      | |                                        | |\\n
+                      | |   ### Case studies, not buzzwords.           | |\\n
+                      | |                                        | |\\n
+                      | |   ### Multi-cloud platform foundations       | |\\n
+                      | |   Reusable infrastructure patterns for secure cloud environments,   | |\\n
+                      | |   with Terraform-managed resources and clear operational guardrails. | |\\n
+                      | |   AWS  GCP  Terraform  IAM                    | |\\n
+                      | |                                        | |\\n
+                      | |   ### CI/CD delivery at scale                | |\\n
+                      | |   Pipeline standards, release automation, and practical   | |\\n
+                      | |   feedback loops that help teams ship frequently without   | |\\n
+                      | |   skipping quality gates.                      | |\\n
+                      | |   Jenkins  Cloud Build  Docker  Security scans   | |\\n
+                      | |                                        | |\\n
+                      | |   ### Policy-driven cloud governance         | |\\n
+                      | |   Infrastructure policy checks and automated evidence   | |\\n
+                      | |   workflows designed to make security controls repeatable   | |\\n
+                      | |   and auditable.                               | |\\n
+                      | |   Terraform  OPA  Audit logs  Cloud IAM          | |\\n
+                      | |                                        | |\\n
+                      | |   ### How the work actually fits together.     | |\\n
+                      | |   CLOUD PLATFORM  CI/CD & RELEASE ENGINEERING  | |\\n
+                      | |   SECURITY & COMPLIANCE  OBSERVABILITY & RELIABILITY | |\\n
+                      | |   CLOUD COST OPTIMIZATION                       | |\\n
+                      | |                                        | |\\n
+                      | |   ### Multi-cloud foundations and Kubernetes operations | |\\n
+                      | |   Operate a platform spanning AWS and Google Cloud, with Kubernetes   | |\\n
+                      | |   and managed cloud services at the core.          | |\\n
+                      | |   Context: 60 clusters, 30 projects, 500 services, 10 environments. | |\\n
+                      | |   Engineering approach: Provision and evolve infrastructure through Terraform. | |\\n
+                      | |   Controls and practices: Terraform change review, IAM and network boundaries, Secret management, Environment consistency. | |\\n
+                      | |   Evidence to publish: Portfolio scale: 60 clusters, 30 projects, 500 services, 10 environments. | |\\n
+                      | |                                        | |\\n
+                      | |   ### From commit to verified release.         | |\\n
+                      | |   Select a stage to see its purpose and controls. | |\\n
+                      | |   Commit: Change record  Build: Package  Test: Quality gates  Scan: Security checks  Deploy: Release  Verify: Observe  Observe: STEP 01 | |\\n
+                      | |                                        | |\\n
+                      | |   ### Latest Writing                         | |\\n
+                      | |   Field notes from the edge.                 | |\\n
+                      | |                                        | |\\n
+                      | |   ### A good platform makes the safe path the easy path. | |\\n
+                      | |   The operating loop I bring to infrastructure and delivery work. | |\\n
+                      | |                                        | |\\n
+                      | |   05 / CONTACT                                    | |\\n
+                      | |   Have a platform challenge worth solving?        | |\\n
+                      | |   Let's talk about cloud platforms, delivery engineering, reliability, or security automation. | |\\n
+                      | |                                        | |\\n
+                      | |   [Email me](mailto:dhileep1992@gmail.com?subject=Let's%20discuss%20a%20DevOps%20opportunity)  [Connect on LinkedIn](https://www.linkedin.com/in/dhileep-kumar-99955874/)  Copy email | |\\n
+                      | |                                        | |\\n
+                      | |   ### RESUME                                   | |\\n
+                      | |   Experience, on paper.                        | |\\n
+                      | |   9+ years across AWS and Google Cloud, 60 clusters, 1000+ CI/CD pipelines, and 40% cloud spend reduction. | |\\n
+                      | |   [Download Resume](https://drive.google.com/uc?export=download&id=1G2hHG3BR6w2jJeZTqtI5hYryyXbRo9pY) | |\\n
+                      | |                                        | |\\n
+                      | |   ### DK.BUILD • SHIP • IMPROVE               | |\\n
+                      | |   Designed for clarity. Built for reliability.    | |\\n
+                      | |                                        | |\\n
+                      | |   ### Fun fact: I run Kubernetes clusters on homelab hardware on weekends. Yes, I live the dream 24/7. | |\\n
+                      | |                                        | |\\n
+                      |   © 2026 dhileepdev. All rights reserved.   | |\\n
+                      |                                        | |\\n
+                      |    TERMINAL SESSION ENDED                         |>\\n
 ======================================================================
 
 <!-- BLOG-POST-LIST:START -->
