@@ -1,4 +1,8 @@
-# dhileep dev
+# Dhileep Kumar
+
+<p align="center">
+  <img src="assets/terminal-header.svg" alt="Terminal: whoami, lead-devops-sre-engineer" width="800">
+</p>
 
 **Lead DevOps Engineer · 9 yrs · SRE · Platform Engineering · DR & Compliance**
 
