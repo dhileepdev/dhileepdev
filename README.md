@@ -36,7 +36,7 @@ Senior Lead DevOps Engineer with 9 years of experience in SRE, platform engineer
 
 <p align="center">
   <a href="https://skillicons.dev/icons">
-    <img src="https://skillicons.dev/icons?i=kubernetes,terraform,aws,githubactions,argocd,prometheus,grafana,kyverno,trivy,python,go,helm,docker" />
+    <img src="https://skillicons.dev/icons?i=kubernetes,terraform,docker,aws,azure,bash,elasticsearch,fastapi,git,github,githubactions,gitlab,grafana,go,js,linux,nginx,npm,prometheus,py,redis,stackoverflow,sublime" />
   </a>
 </p>
 
