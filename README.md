@@ -1,30 +1,49 @@
-$ cat about.md
-Lead DevOps Engineer · 9 yrs · SRE
-Building cloud platforms that ship with confidence.
-Optimizing for platform thinking, automation, and operational ownership.
+<p align="center">
+  <img src="assets/terminal-header.svg" alt="Terminal: whoami, lead-devops-sre-engineer" width="800">
+</p>
 
-$ git log --oneline --impact
-reduced cloud spend by 40% through infrastructure optimization
-increased deploy frequency to 1000+ CI/CD pipelines
-improved incident response times with SRE practices
+### `$ cat about.md`
+```text
+{{NAME}} | Lead DevOps / SRE Engineer | {{YEARS}} yrs
+I own reliability and delivery for {{SCALE}}.
+I optimize for: low toil, fast recovery, boring deploys.
+```
 
-$ kubectl get skills -o wide
-AWS    GOOGLE CLOUD    KUBERNETES    TERRAFORM    SRE PRACTICES
-       SLOs        error budgets incident response observability CI/CD
+### `$ git log --oneline --impact`
+```text
+a1f3c9e Cut {{SYSTEM_1}} {{METRIC_1}} by {{RESULT_1}}
+b72d0a4 Reduced MTTR from {{BASELINE}} to {{NEW}} via {{HOW}}
+c9e81b2 Moved {{SYSTEM_2}} to Terraform: {{RESULT_2}}
+d04a7f6 Introduced SLOs/error budgets across {{N}} services
+```
 
-$ cat runbook.md
-Reusable patterns over one-off fixes.
-Useful alerts, clear ownership, better RCAs.
-Policy checks and evidence in the workflow.
-Secure by default, observable by design.
+### `$ kubectl get skills -o wide`
+```text
+AREA            TOOLS                          LEVEL
+cloud           AWS, GCP                       production
+orchestration   Kubernetes                     production
+iac             Terraform                      production
+sre             SLOs, error budgets, on-call   lead
+reliability     incident command, postmortems  lead
+delivery        CI/CD, release automation      lead
+observability   {{YOUR_TOOLS}}                 production
+```
 
-$ ls ~/projects
+### `$ cat runbook.md`
+```text
+1. If a human does it twice, automate it.
+2. No SLO, no alert. No alert, no pager.
+3. Postmortems are blameless and have owners.
+4. Every change must be reversible.
+```
+
+### `$ ls ~/projects`
+```text
 [Aetheria](https://github.com/dhileepdev/Aetheria)
 [compliance-scanner](https://github.com/dhileepdev/compliance-security-scanner-portfolio)
 [dr-dashboard](https://github.com/dhileepdev/dr-incident-dashboard)
 [devops-ecosystem](https://github.com/dhileepdev/devops-plugin-ecosystem)
+```
 
-$ ./contact.sh
-LinkedIn: @dhileep-kumar-99955874
-Email: dhileep1992@gmail.com
-Website: dhileep.info
+### `$ ./contact.sh`
+[LinkedIn]({{@dhileep-kumar-99955874}}) | [Email](mailto:{{hello@dhileep.info}}) | [Site]({{https://dhileep.info}})
