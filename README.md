@@ -3,8 +3,8 @@
   Terra Terminal Theme: green-on-black aesthetic across entire design
   GitHub Username: dhileepdev
   Sections: About Me, GitHub Stats Cards, Tech Stack / Skills Badges, Featured Projects
+  Style: terra terminal (green-on-black) matching dhileep.info design
   Dynamic content: WakaTime, Contribution Snake, Blog Posts
-  Style: terra terminal (green-on-black)
 -->
 
 ========================================================================
@@ -12,8 +12,8 @@
                      |o o|        dhileep kumar
                      | . .|        Lead DevOps Engineer · 9 yrs · SRE · Platform Engineering
                 ________________________________________________________
-                < BUILDING RESILIENT PLATFORMS, AUTOMATING COMPLIANCE, AND   >
-                 KEEPING THE PAGER QUIET.                          >
+                < BUILDING PLATFORMS THAT SHIP WITH CONFIDENCE.          >
+                 KEEPING THE PAGER QUIET.                            >
                  ------------------------------------                  >\n
                   \    ^     ^      /                          |  >\n
                    \  /     /     /    TERMINAL THEME: TERRA          |>\n
@@ -27,26 +27,15 @@
                       / | | | |   → dhileep-kumar — Lead DevOps Engineer| |\n
                       | | | | |   .-------------------------------. | |\n
                       | | | | |  $ kubectl get clusters --context=portfolio | |\n
-                      | | | | |   → platform-prod     Ready 3/3 nodes   | |\n
-                      | | | | |   → platform-staging  Ready 2/2 nodes   | |\n
+                      | | | | |   → platform-prod     Ready            | |\n
+                      | | | | |   → platform-staging  Ready            | |\n
                       | | | | |   .-------------------------------. | |\n
                       | | | | |  $ terraform plan -var-file=prod.tfvars   | |\n
-                      | | | | |   → Plan: 3 to add, 0 to change, 0 destroy.| |\n
+                      | | | | |   → Plan: reviewed changes before apply.| |\n
                       | | | | |   .-------------------------------. | |\n
-                      | | | | |  $ tail -f /var/log/incidents.log       | |\n
-                      | | | | |   → WARN sev=1 service=checkout error=timeout retries=3| |\n
-                      | | | | |   '-------------------------------' | |\n
-                      | | | | |                                       | |\n
-                      | | | | |  .-------------------------------. | |\n
-                      | | | | |  $ kubectl get nodes -o wide            | |\n
-                      | | | | |  → ready   master   4   v1.29.0   k8s-node-1   | |\n
-                      | | | | |  → ready   master   4   v1.29.0   k8s-node-2   | |\n
-                      | | | | |  → ready   master   4   v1.29.0   k8s-node-3   | |\n
-                      | | | | |   .-------------------------------. | |\n
-                      | | | | |  $ kubectl get pods -A --field-selector=status.phase=Running | |\n
-                      | | | | |  → kube-system   coredns-5d95...   1/1   Running   0   23d | |\n
-                      | | | | |  → kube-system   kube-dns-...      1/1   Running   0   23d | |\n
-                      | | | | |  → monitoring    prometheus-server-...   2/2   Running   0   23d | |\n
+                      | | | | |  $ pipeline status --summary          | |\n
+                      | | | | |   → verified quality gates · security scans   | |\n
+                      | | | | |   → awaiting input                    | |\n
                       | | | | |   '-------------------------------' | |\n
                       | | | | |                                       | |\n
                       | | | | |  .-------------------------------. | |\n
@@ -64,31 +53,10 @@
                       | | | | |   '-------------------------------' | |\n
                       | | | | |                                       | |\n
                       | | | | |  .-------------------------------. | |\n
-                      | | | | |  $ gh run list --limit 5               | |\n
-                      | | | | |  → #1234   dhileepdev/dr-incident-dashboard   Finished   2026-01-15   42s | |\n
-                      | | | | |  → #1235   dhileepdev/compliance-security-scanner   Queued     2026-01-15   — | |\n
-                      | | | | |  → #1236   dhileepdev/terraform-landing-zone   Running    2026-01-15   15m | |\n
-                      | | | | |   '-------------------------------' | |\n
-                      | | | | |                                       | |\n
-                      | | | | |  .-------------------------------. | |\n
                       | | | | |  $ aws sts get-caller-identity          | |\n
                       | | | | |  → Account: 123456789012                | |\n
                       | | | | |  → UserId: AIDA1234567890123456789      | |\n
                       | | | | |  → Arn: arn:aws:iam::123456789012:user/dhileep-kumar | |\n
-                      | | | | |   '-------------------------------' | |\n
-                      | | | | |                                       | |\n
-                      | | | | |  .-------------------------------. | |\n
-                      | | | | |  $ terraform init                        | |\n
-                      | | | | |  → Initializing the backend...         | |\n
-                      | | | | |  → Initializing provider plugins...    | |\n
-                      | | | | |  → Terraform has been successfully initialized! | |\n
-                      | | | | |   '-------------------------------' | |\n
-                      | | | | |                                       | |\n
-                      | | | | |  .-------------------------------. | |\n
-                      | | | | |  $ kubectl logs -n monitoring ... --tail=5 | |\n
-                      | | | | |  → 2026-01-15T10:30:00Z INFO Successfully connected to TSDB | |\n
-                      | | | | |  → 2026-01-15T10:29:00Z INFO Received 15000 series | |\n
-                      | | | | |  → 2026-01-15T10:28:00Z WARN Scraping target removed: job=kubernetes-nodes | |\n
                       | | | | |   '-------------------------------' | |\n
                       | | | | |                                       | |\n
                       | | | | |  .-------------------------------. | |\n
@@ -105,25 +73,19 @@
                       | | | | |  → landing-zone          ns3   healthy   Synced   2026-01-15T10:20:00Z | |\n
                       | | | | |   '-------------------------------' | |\n
                       | | | | |                                       | |\n
-                      | | | | |  .-------------------------------. | |\n
-                      | | | | |  $ kubectl get pods -n prod ... ready      | |\n
-                      | | | | |  → true                                    | |\n
-                      | | | | |   '-------------------------------' | |\n
-                      | | | |                                        | |\n
-                      | | | |   Core Expertise:                         | |\n
-                      | | | |  .-------------------------------.        | |\n
-                      | | | |  | SRE & Reliability: SLI/SLO definition, error budget management, incident command | |\n
-                      | | | |  | CI/CD & Automation: GitOps, pipeline orchestration, infrastructure as code | |\n
-                      | | | |  | Platform Engineering: Kubernetes, Terraform, cost optimization, multi-cluster management | |\n
-                      | | | |  | Compliance & Security: Kyverno policies, Trivy scanning, SOC2/DORA readiness | |\n
-                      | | | |  | Disaster Recovery: DR drills, backup strategies, RTO/RPO planning | |\n
-                      | | | |   '-------------------------------'        | |\n
-                      | | | |                                        | |\n
+                      | | | | |   Core Expertise:                         | |\n
+                      | | | | |  .-------------------------------.        | |\n
+                      | | | | |  | Cloud & Platform: AWS, Google Cloud, GKE, Cloud Run, Cloud SQL, VPC | |\n
+                      | | | | |  | Delivery & Automation: Terraform, Jenkins, Cloud Build, CI/CD, Python, Bash | |\n
+                      | | | | |  | Reliability & Observability: Kubernetes, Docker, Prometheus, Grafana, EFK, Incident response | |\n
+                      | | | | |  | Security & Governance: IAM, OPA, Policy as Code, SOC 2 readiness, HIPAA readiness, HITRUST readiness | |\n
+                      | | | | |  '-------------------------------'        | |\n
+                      | | | | |                                        | |\n
                       | |   Pinned Projects:                        | |\n
                       | |  .-------------------------------.      | |\n
-                      | |  | dr-incident-dashboard-portfolio | DR + incident command dashboard | |\n
-                      | |  | compliance-security-scanner-portfolio | Kyverno + Trivy + CI compliance | |\n
-                      | |  | terraform-landing-zone-portfolio | Terraform landing zone + cost management | |\n
+                      | |  | Multi-cloud platform foundations       | Reusable infrastructure patterns for secure cloud environments, with Terraform-managed resources and clear operational guardrails | |\n
+                      | |  | CI/CD delivery at scale                 | Pipeline standards, release automation, and practical feedback loops that help teams ship frequently without skipping quality gates | |\n
+                      | |  | Policy-driven cloud governance          | Infrastructure policy checks and automated evidence workflows designed to make security controls repeatable and auditable | |\n
                       | |   '-------------------------------'      | |\n
                       | |                                        | |\n
                       | |   In Progress:                          | |\n
@@ -135,7 +97,7 @@
                       | |   Let's Connect:                        | |\n
                       | |  .-------------------------------.  | |\n
                       | |  | GitHub: [@dhileepdev](https://github.com/dhileepdev) | |\n
-                      | |  | Email: dhileep@example.com       | |\n
+                      | |  | Email: dhileep1992@gmail.com       | |\n
                       | |  | Location: [Coimbatore, Tamil Nadu]   | |\n
                       | |  | Blog: [https://dhileep.info] (coming soon) | |\n
                       | |   '-------------------------------'  | |\n
