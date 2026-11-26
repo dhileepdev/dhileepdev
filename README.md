@@ -10,6 +10,6 @@
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ---
-[![](https://komarev.com/ghpvc/?username=dhileepdev&icon=2&color=0)](https://visitcount.itsvg.in)
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=dhileepdev&label=Profile%20views&color=0e75b6&style=flat" alt="dhileepdev" /> </p>
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
