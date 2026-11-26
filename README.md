@@ -1,17 +1,16 @@
-<h1 align="center">Hi 👋, I'm Dhileep Kumar</h1>
+<h1 align="center">Hi 👋, I'm Dhileep Kumar </h1>
 <h3 align="center">A passionate Lead DevOps/SRE Engineer from India</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=dhileepdev&label=Profile%20views&color=0e75b6&style=flat" alt="dhileepdev" /> </p>
-
-<p align="center">
-  <img src="assets/transform-my-image-into-a-cartoon-style.png" alt="Dhileep Kumar" width="800">
-</p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=dhileepdev&label=Profile%20views&color=0e75b6&style=flat" alt="dhileepdev" /> <img src="https://img.shields.io/badge/🌳_grown_with-git--bonsai-2ea44f" alt="dhileepdev"> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://trophygithubreadmelang.cybee.dpdns.org/?username=dhileepdev&theme=light" alt="dhileepdev" /></a> </p>
+
+<p align="center"> <img src="output/bonsai-growth.gif" width="384" alt="my git-bonsai" /> </p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/dhileep-kumar-99955874/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/dhileep-kumar-99955874/" height="30" width="40" /></a>
+<a href="mailto:dhileep1992@gmail.com"><img align="center" src="https://skillicons.dev/icons?i=gmail" />
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
